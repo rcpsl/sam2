@@ -289,8 +289,8 @@ def main(args):
         mask_dir=mask_dir,
         overlay_dir=overlay_dir,
         batch_size=args.batch_size,
-        start_frame=478,
-        end_frame=533
+        start_frame=0,
+        end_frame=1500
     )
 
 if __name__ == "__main__":
